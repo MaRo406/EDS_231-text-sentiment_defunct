@@ -68,7 +68,7 @@ The goal of EDS 231 (Text and Sentiment Analysis for Environmental Problems) is 
 
 -   Readings will be drawn from free online ebooks and the academic literature
 
-## Tentative topics test
+## Tentative topics 
 
 | Week | Lecture  | Reading |Assignment
 |------|----------------|----------|----------|
