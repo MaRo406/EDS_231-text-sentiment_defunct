@@ -1,7 +1,7 @@
-name: "meds-distill-template"
-title: "EDS 123"
+name: "EDS 231"
+title: "EDS 231: Text and Sentiment Analysis for Environmental Problems"
 description: |
-  MEDS Courses distill template
+  EDS Course website
 output_dir: "docs"
 navbar:
   right:
@@ -33,8 +33,7 @@ navbar:
     #   href: assignments.html
     - text: "Resources"
       href: resources.html
-    - icon: fab fa-github
-      href: https://github.com/allisonhorst/meds-distill-template
+
 output:
   distill::distill_article:
     toc: true
