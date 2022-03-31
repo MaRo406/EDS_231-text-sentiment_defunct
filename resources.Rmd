@@ -20,4 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### APIs
 - [New York Times](https://developer.nytimes.com/)
 
+### Google
+- [Google Trends](https://googletrends.github.io/data/)
+
 
