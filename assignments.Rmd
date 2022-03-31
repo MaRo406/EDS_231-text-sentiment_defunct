@@ -2,6 +2,11 @@
 title: "Assignments"
 ---
 
+###Week 2 (due Week 3)
+
+
+
+
 <p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>assignments.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
 
 ### Assignment materials and dates

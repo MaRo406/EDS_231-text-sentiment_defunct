@@ -1,0 +1,67 @@
+---
+title: "Week 2: Text Data in R"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+https://alexluscombe.ca/post/r-pdftools/
+https://alexluscombe.ca/blog/parsing-your-.pdfs-in-r/
+
+Basic workflow for text analysis
+Obtain your text sources
+Text data can come from lots of areas:
+
+Web sites
+Twitter
+Databases
+PDF documents
+Digital scans of printed materials
+The easier to convert your text data into digitally stored text, the cleaner your results and fewer transcription errors.
+
+Extract documents and move into a corpus
+A text corpus is a large and structured set of texts. It typically stores the text as a raw character string with meta data and details stored with the text.
+
+Transformation
+Examples of typical transformations include:
+
+Tagging segments of speech for part-of-speech (nouns, verbs, adjectives, etc.) or entity recognition (person, place, company, etc.)
+Standard text processing - we want to remove extraneous information from the text and standardize it into a uniform format. This typically involves:
+Converting to lower case
+Removing punctuation
+Removing numbers
+Removing stopwords - common parts of speech that are not informative such as a, an, be, of, etc.
+Removing domain-specific stopwords
+Stemming - reduce words to their word stem
+“Fishing”, “fished”, and “fisher” -> “fish”
+Extract features
+Feature extraction involves converting the text string into some sort of quantifiable measures. The most common approach is the bag-of-words model, whereby each document is represented as a vector which counts the frequency of each term’s appearance in the document. You can combine all the vectors for each document together and you create a term-document matrix:
+
+Each row is a document
+Each column is a term
+Each cell represents the frequency of the term appearing in the document
+
+Import data/parse pdf
+Create tibble
+Inspect
+Basic frequency analyses
+
+
+## Including Code
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
